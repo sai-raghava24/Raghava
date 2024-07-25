@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: powderblue;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333; 
+    color: peachpuff; 
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+.header-content h1 {
+    font-size: 3rem; 
+    margin-bottom: 0.5em;
+}
+
+nav {
+    background-color: #444; 
+    color: peachpuff; 
+    text-align: center;
+    padding: 0.5em 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block; 
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: peachpuff; 
+    text-decoration: none;
+    padding: 0.5em 1em; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+nav ul li a:hover {
+    background-color:powderblue; 
+    color: peachpuff; 
+    border-radius: 5px; 
+}
+
+footer {
+    background-color: #333; 
+    color: peachpuff; 
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.section-content {
+    background-color: whitesmoke; 
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+#about {
+    background-color:powderblue; 
+    padding: 4rem 0; 
+    text-align: center;
+}
+
+#about .section-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about .profile-image img {
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-in-out; 
+}
+
+#about .profile-image img:hover {
+    transform: scale(1.1); 
+}
+
+.academic-item {
+    background-color: rosybrown;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.academic-item h3 {
+    margin-top: 0;
+}
+
+.academic-item p {
+    margin-bottom: 0.5rem;
+}
+
+#skills {
+    background-color: powderblue; 
+    padding: 4rem 0; 
+    text-align: center;
+}
+
+#skills ul {
+    text-align: left; 
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+#skills ul li {
+    background-color: peachpuff; 
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+#skills ul li:hover {
+    transform: scale(1.05); 
+}
+
+.cta-button {
+    background-color: #007bff;
+    color: peachpuff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+
